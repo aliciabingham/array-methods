@@ -13,6 +13,15 @@ planets.forEach( function outputPlanets(){
 
 // Use the map method to create a new array where the first letter of each planet is capitalized
 
+function capitalize(caps) {
+  return caps.charAt(0);
+}
+
+planetsCapitalized = planets.map(capitalize);
+console.log(planetsCapitalized);
+
+
+
 // Use the filter method to create a new array that contains planets with the letter 'e'
 
 // Use the reduce method to create a sentence from the words in the following array
